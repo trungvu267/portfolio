@@ -1,0 +1,17 @@
+@use '../custom.scss' as *;
+@use '../componenets/mixins' as *;
+
+
+.menu{
+    @include gradient;
+    
+    li{
+        
+        padding: 0 .7rem;
+        a{
+            color:$white !important;
+            font-weight: 600;
+        }
+    }
+    
+}

@@ -1,0 +1,23 @@
+@use '../custom.scss' as *;
+@use '../componenets/typography' as *;
+
+.get-started{
+    // LEFT COL
+    &--content{
+        padding: 3rem;
+
+        ul{
+            list-style-type: none;
+
+            li::before{
+                font-family:"Font Awesome 5 Free";
+                content: "\f00c";
+                font-weight: 600;
+                padding-right: 0.5rem;
+                font-size: 1.5rem;
+            }
+        }
+    }
+
+    // RIGHT COL
+}
